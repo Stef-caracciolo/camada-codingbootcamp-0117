@@ -1,0 +1,79 @@
+body {
+    background-image: url(./imagenes/4k.jpg);
+    background-repeat: no-repeat;
+background-size: 500%;
+text-align: center;
+}
+h1{
+    color: violet;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+color: hotpink; 
+font-family: 'Dancing Script', cursive;
+  
+}
+a{
+    color: coral;
+    font-family: 'Dancing Script', cursive;
+}
+h4{
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    color: thistle;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+form{
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+h4{
+
+    color: #21BFBF;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+ul{
+    display:block;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+    background-color: black;
+}
+ul{
+    display:block;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+    background-color: azure;
+}
+li a{
+    text-decoration: none;
+    color:#815DE3;
+    font-size: 30px;;
+}
+li a:hover{
+    color: #F85BF1;
+    font-size: 40px;
+    
+}
+.PLANETAS2{
+text-align: center;
+}
