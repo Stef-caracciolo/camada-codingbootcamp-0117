@@ -1,9 +1,34 @@
 body {
     background-image: url(./imagenes/4k.jpg);
     background-repeat: no-repeat;
-background-size: 500%;
+background-size: 100%;
 text-align: center;
 }
+@keyframes fondoanima{
+
+    0%{
+filter: saturate(100%);
+    }
+
+    70%{
+        filter: saturate(80%);
+            }
+            90%{
+                filter: saturate(45%);
+                    }
+                    
+    100%{
+        filter: saturate(20%);  
+    }
+}
+.planetatierra{
+    height: 60%;
+    width: 50%;
+ animation-name: fondoanima ;
+  animation-duration: 2.5s ;
+  transition: 8s;
+}
+
 h1{
     color: violet;
     text-align: center;
@@ -33,7 +58,7 @@ form{
     color: black;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 h4{
@@ -41,7 +66,7 @@ h4{
     color: #21BFBF;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 ul{
@@ -67,13 +92,173 @@ li{
 li a{
     text-decoration: none;
     color:#815DE3;
-    font-size: 30px;;
+    font-size: 15px;;
 }
 li a:hover{
     color: #F85BF1;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 .PLANETAS2{
-text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+    }
+
+    .PLANETAS2{
+        display: flex;
+        align-content: stretch;
+    }
+.nombres{
+    flex-direction: row;
+    align-items: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+}
+
+
+
+
+
+
+@media (min-height:600px){
+    body {
+        background-image: url(./imagenes/4k.jpg);
+        background-repeat: no-repeat;
+    background-size: 500%;
+    text-align: center;
+    }
+    h1{
+        color: violet;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    h3{
+    color: hotpink; 
+    font-family: 'Dancing Script', cursive;
+      
+    }
+    a{
+        color: coral;
+        font-family: 'Dancing Script', cursive;
+    }
+    h4{
+        color: yellow;
+        font-family: 'Dancing Script', cursive;
+    }
+    h2{
+        color: thistle;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    
+    form{
+        color: black;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+    }
+    
+    h4{
+    
+        color: #21BFBF;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+    
+    ul{
+        display:block;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        text-decoration: none;
+        padding: 0px 20px;
+        background-color: black;
+    }
+    ul{
+        display:block;
+        text-align: center;
+    }
+    li{
+        display: inline-block;
+        text-decoration: none;
+        padding: 0px 20px;
+        background-color: azure;
+    }
+    li a{
+        text-decoration: none;
+        color:#815DE3;
+        font-size: 30px;;
+    }
+    li a:hover{
+        color: #F85BF1;
+        font-size: 40px;
+        
+    }
+    .PLANETAS2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
+            justify-content: space-around;
+            align-items: center;
+            align-content: stretch;
+        }
+    
+        .PLANETAS2{
+            display: flex;
+            align-content: stretch;
+        }
+    .nombres{
+        flex-direction: row;
+        align-items: flex-end;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: stretch;
+    }
+}
+
+/*
+.planetatierra{
+ animation-name:borroso;
+ animation-duration: 3s;
+
+}
+@keyframes borroso{
+0%{
+}
+33%{
+height: 80%;
+width: 80%;
+}
+100%{filter: blur(0px);}
+}
+*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 3 / 1 / 4 / 2; }
+    .div2 { grid-area: 3 / 2 / 4 / 3; }
+    .div3 { grid-area: 3 / 3 / 4 / 4; }
+    .div4 { grid-area: 3 / 4 / 4 / 5; }
+
+.nombres{
+    color: hotpink; 
+    font-family: 'Dancing Script', cursive;
 }

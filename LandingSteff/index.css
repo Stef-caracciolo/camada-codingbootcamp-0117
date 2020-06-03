@@ -1,0 +1,347 @@
+/* UTILIDADES */
+.Margen {
+    margin: 0 auto 0 auto;
+}
+.Borde {
+    border-radius: 15px;
+}
+.laescuela1{
+	position: absolute;
+	color: white;
+	font-size: 2em;
+	font-family: 'K2D', sans-serif;
+	top: 220%;
+
+}
+/*Barra de navegacion "NAV"*/
+.principal{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+	background: rgb(83,237,199);
+    background: linear-gradient(90deg, rgba(83,237,199,1) 0%, rgba(173,72,226,1) 12%, rgba(223,108,233,1) 21%, rgba(224,149,214,1) 27%, rgba(224,130,200,1) 31%, rgba(115,107,207,1) 43%, rgba(128,204,179,1) 53%, rgba(216,98,205,1) 64%, rgba(147,70,148,1) 73%, rgba(98,127,176,1) 82%, rgba(125,54,182,1) 87%, rgba(164,67,205,1) 93%, rgba(0,255,231,1) 100%);
+}
+.Botonera{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    padding-right: 3em;
+}
+.Botonera{
+	text-decoration: none;
+}
+.Botonera li a {
+
+    font-size: 1.2em;
+    font-weight: 400;
+
+    padding: 0 1em 0 1em;
+    font-family: 'K2D', sans-serif;
+    
+    color: white;
+    letter-spacing: 0.5em;
+
+    text-decoration: none;
+    list-style: inherit;
+}
+.Botonera li a:hover{
+	color:black;
+	font-size: 1.5em;
+}
+.logo1{
+	width: 15%;
+
+}
+/* HEADER */
+
+.header img{
+    width: 7em;
+    padding: 1.5em 0 1.5em 5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgb(83,237,199);
+    background: linear-gradient(90deg, rgba(83,237,199,1) 0%, rgba(173,72,226,1) 12%, rgba(223,108,233,1) 21%, rgba(224,149,214,1) 27%, rgba(224,130,200,1) 31%, rgba(115,107,207,1) 43%, rgba(128,204,179,1) 53%, rgba(216,98,205,1) 64%, rgba(147,70,148,1) 73%, rgba(98,127,176,1) 82%, rgba(125,54,182,1) 87%, rgba(164,67,205,1) 93%, rgba(0,255,231,1) 100%);
+}
+
+
+
+/* PORTADA INICIO */
+
+.PortadaPrincipal {
+
+    background-image: url(https://get.wallhere.com/photo/digital-art-women-closed-eyes-dancing-dancer-color-performance-stage-computer-wallpaper-special-effects-160380.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TituloPortada {
+	
+    color: black;
+    font-size: 6em;
+    
+    font-family: 'K2D', sans-serif;
+
+	padding-top: 80%;
+    padding-left: 1em;
+}
+
+.Separacion {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} 
+
+.TituloServicios {
+
+    text-align: center;
+    padding: 1.8em 0 1.8em 0;
+    font-family: 'K2D', sans-serif;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.ServiciosEspecificos{
+
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1.5px;
+    background-color: rgb(161, 255, 247);
+    
+
+}
+
+/* GALERIA **/
+
+.Galeria{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	background-color: rgb(149, 149, 149);
+}
+.FotoGaleria{
+    width: 50%;
+}
+
+/* FOOTER */
+
+.FondoFooter {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgb(83,237,199);
+background: linear-gradient(90deg, rgba(83,237,199,1) 0%, rgba(173,72,226,1) 12%, rgba(223,108,233,1) 21%, rgba(224,149,214,1) 27%, rgba(224,130,200,1) 31%, rgba(115,107,207,1) 43%, rgba(128,204,179,1) 53%, rgba(216,98,205,1) 64%, rgba(147,70,148,1) 73%, rgba(98,127,176,1) 82%, rgba(125,54,182,1) 87%, rgba(164,67,205,1) 93%, rgba(0,255,231,1) 100%);
+
+}
+
+.Foto-logo{
+
+    width: 10%;
+
+}
+
+.CopyRight {
+
+    font-family: 'K2D', sans-serif;    
+    padding-right:  3em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.TamañoFormulario {
+
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'K2D', sans-serif;    
+}
+
+* {
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1400px;
+	margin:50px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contenedor_tarjeta {
+	margin: 20px;
+}
+
+.contenedor_tarjeta a {
+	display: inline-block;
+}
+
+.contenedor_tarjeta:hover figure {
+	transform: perspective(600px) rotateY(180deg);
+	-webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+}
+
+figure {
+	width: 400px;
+	height: 550px;
+	margin:0;
+	position: relative;
+	transition: all ease .5s;
+	transform-style: preserve-3d;
+	transform: perspective(600px) rotateY(0deg);
+}
+
+figure .frontal,
+figure .trasera {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	transition: all ease .5s;
+}
+
+figure .frontal {
+	display: block;
+	background: #000;
+}
+
+figure .trasera {
+	position: absolute;
+	top: 0;
+	padding: 30px;
+	color: #fff;
+	transform: perspective(600px) rotateY(180deg);
+	backface-visibility: hidden;
+	overflow: auto;
+}
+
+.contenedor_tarjeta:nth-child(1) figure .trasera{
+	background: rgba(223,234,241,0.7);
+	background: -moz-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223,234,241,0.7)), color-stop(100%, rgba(15,99,144,1)));
+	background: -webkit-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -o-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: -ms-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	background: linear-gradient(to bottom, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfeaf1', endColorstr='#0f6390', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(2) figure .trasera{
+	background: rgba(251,232,202,0.7);
+	background: -moz-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,232,202,0.7)), color-stop(100%, rgba(25,44,72,1)));
+	background: -webkit-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -o-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: -ms-linear-gradient(top, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	background: linear-gradient(to bottom, rgba(251,232,202,0.7) 0%, rgba(25,44,72,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbe8ca', endColorstr='#192c48', GradientType=0 );
+}
+
+.contenedor_tarjeta:nth-child(3) figure .trasera{
+	background: rgba(95,58,53,0.7);
+	background: -moz-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(95,58,53,0.7)), color-stop(100%, rgba(221,32,47,1)));
+	background: -webkit-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -o-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: -ms-linear-gradient(top, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	background: linear-gradient(to bottom, rgba(95,58,53,0.7) 0%, rgba(221,32,47,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f3a35', endColorstr='#dd202f', GradientType=0 );
+}
+
+figure .trasera .titulo {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+figure .trasera hr {
+	height: 2px;
+	background: #fff;
+	border: none;
+	margin-bottom: 20px;
+	opacity: .5;
+}
+
+figure .trasera p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 992px) { 
+	figure .trasera {
+		backface-visibility:visible;
+		transform: perspective(600px) rotateY(0deg);
+	}
+
+	.contenedor_tarjeta:hover figure {
+		transform: perspective(600px) rotateY(0deg);	
+	}
+
+
+	.TituloPortada {
+	
+		color: black;
+		font-size: 2em;
+		
+		font-family: 'K2D', sans-serif;
+	
+		padding-top: 80%;
+		padding-left: 1em;
+	}
+
+	.laescuela1{
+		position: absolute;
+		color: white;
+		font-size: 0.5em;
+		font-family: 'K2D', sans-serif;
+		top: 100%;
+	
+	}
+
+}
+.papa2{
+    background: rgb(83,237,199);
+background: linear-gradient(90deg, rgba(83,237,199,1) 0%, rgba(173,72,226,1) 12%, rgba(223,108,233,1) 21%, rgba(224,149,214,1) 27%, rgba(224,130,200,1) 31%, rgba(115,107,207,1) 43%, rgba(128,204,179,1) 53%, rgba(216,98,205,1) 64%, rgba(147,70,148,1) 73%, rgba(98,127,176,1) 82%, rgba(125,54,182,1) 87%, rgba(164,67,205,1) 93%, rgba(0,255,231,1) 100%);
+}
+button{
+	font-size: 1.5em;
+	color: black;
+	font-family: 'K2D', sans-serif;
+	background-color: white;
+
+}
